@@ -13,7 +13,7 @@ fetch("https://catfact.ninja/fact")
 })
 
 //get a random cat image
-fetch("https://cataas.com/cat/gif?type=medium&json=true")
+fetch("https://cataas.com/cat?type=medium&json=true")
 .then(response => response.json())
 .then(data=>{
     console.log(data.url);
